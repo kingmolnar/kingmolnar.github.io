@@ -11,9 +11,9 @@
 ## Topics
 
 <ul>
-  {% for topic in site.topics %}
+  {% for post in site.posts %}
     <li>
-      <a href="{{ topic.url }}">{{ topic.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
