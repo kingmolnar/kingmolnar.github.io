@@ -1,8 +1,10 @@
-# Computer Vision
-
+---
+layout: post
+title:  "Computer Vision"
+---
 
 ## Use Cases:
-- Serial Number Recognition of machine parts
+- Serial number recognition of machine parts
 - Read Labels from Chemical Bottles
 - Processing Electronic Lab Notebooks
 - Processing Insurance Claims
