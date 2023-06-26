@@ -9,9 +9,9 @@ Welcome to My Home Page
 - With timeago filter - {{ date | timeago }}
 
 <ul>
-  {% for post in site.posts %}
+  {% for topic in site.topics %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ topic.url }}">{{ topic.title }}</a>
     </li>
   {% endfor %}
 </ul>
