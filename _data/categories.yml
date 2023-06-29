@@ -1,0 +1,31 @@
+- title: Strategy &amp; Delivery
+  sort_order: 1
+  description: >-
+    Developing data science road-map, scoping projects,
+    lead cross-organizational teams in multiple workstreams.
+  label: strategy
+  image: strategy.jpg
+
+- title: Visualization &amp; User Applications
+  sort_order: 1
+  description: >-
+    Developing data science road-map, scoping projects,
+    lead cross-organizational teams in multiple workstreams.
+  label: visualization
+  image: visualization.jpg
+
+- title: Modeling &amp; Simulation
+  sort_order: 1
+  description: >-
+    Developing data science road-map, scoping projects,
+    lead cross-organizational teams in multiple workstreams.
+  label: simulation
+  image: simulation.jpg
+
+- title: Computer Systems
+  sort_order: 1
+  description: >-
+    Developing data science road-map, scoping projects,
+    lead cross-organizational teams in multiple workstreams.
+  label: systems
+  image: systems.jpg

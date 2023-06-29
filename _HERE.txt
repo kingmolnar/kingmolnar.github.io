@@ -1,0 +1,5 @@
+Run local server with 
+    $ docker-compose up
+
+Source: https://github.com/BretFisher/jekyll-serve/blob/main/README.md
+

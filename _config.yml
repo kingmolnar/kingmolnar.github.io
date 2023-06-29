@@ -18,16 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Molnar.AI
+longtitle: "Corporate and Academic Wide-ranging Data-driven Scientist"
+author: "Dr. rer. nat. Péter Molnár"
+email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Corporate and Academic Wide-ranging Data-driven Scientist – AI, ML, Physics.
+  Engagement Lead with High Returns at the Frontiers of Business Transformation.
+  Molnar, LLC is incorporated in Georgia/USA.
+
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://molnar.ai" # the base hostname & protocol for your site, e.g. http://example.com
+linkedin_username: petermolnar
+github_username:  kingmolnar
+
+show_only_blog_posts: true
+show_excerpts: true
+excerpt_separator: <!--more-->
 
 # Build settings
 theme: minima
@@ -53,3 +60,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  topics:
+    output: true

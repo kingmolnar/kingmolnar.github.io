@@ -1,7 +1,16 @@
 ---
 layout: post
 title:  "Computer Vision"
+category: "experience"
+tags:
+    - "Life Science"
+    - "Artificial Intelligence"
+    - "Machine Learning"
 ---
+Lorem 
+<!--more-->
+
+
 
 ## Use Cases:
 - Serial number recognition of machine parts
@@ -12,4 +21,4 @@ title:  "Computer Vision"
 - Item Counting
 - Product Search by Image Similarity
 
-*Tags:* Computer Vision, Image Processing, Life Sciences, Manufacturing
+***Tags:*** *{{ page.tags | array_to_sentence_string }}*
