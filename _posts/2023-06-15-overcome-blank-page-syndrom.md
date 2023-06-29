@@ -8,4 +8,5 @@ external_url: https://medium.molnar.ai/overcome-the-blank-page-syndrome-and-avoi
 
 Much is written about ChatGPT and other generative artificial intelligence (GenAI) models. That made me wonder if these tools can help to write an article.
 <!--more-->
-[Read the blog on Medium!]({{ page.external_url }})
+
+[Read this article on Medium]({{ page.external_url }})
