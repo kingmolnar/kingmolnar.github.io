@@ -1,7 +1,7 @@
 ---
 layout: experience
 title:  "Indoor Localization"
-category: experience
+category: machine-learning
 tags:
     - Retail Analytics
     - Sensors

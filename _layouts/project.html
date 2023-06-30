@@ -1,0 +1,31 @@
+---
+layout: base
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <div class="left-line">
+      Visit the repository at <a href="{{ page.web_url }}" target="_blank"
+       rel="noopener noreferrer">{{ page.web_url }}</a>
+    </div>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  {%- assign num_tags = page.tags | size -%}
+  {%- if num_tags > 0  -%}
+  <div>
+    <i><b>Tags:</b> {{ page.tags | array_to_sentence_string }}</i>
+  </div>
+  {%- endif -%}
+  
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

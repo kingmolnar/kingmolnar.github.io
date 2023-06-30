@@ -1,31 +1,45 @@
 - title: Strategy &amp; Delivery
-  sort_order: 1
+  sort_order: 10
   description: >-
     Developing data science road-map, scoping projects,
     lead cross-organizational teams in multiple workstreams.
   label: strategy
   image: strategy.jpg
 
-- title: Visualization &amp; User Applications
-  sort_order: 1
+- title: Artificial Intelligence
+  sort_order: 20
   description: >-
-    Developing data science road-map, scoping projects,
-    lead cross-organizational teams in multiple workstreams.
-  label: visualization
-  image: visualization.jpg
+    Data labeling, feature engineering, model training and optimization, evaluate and monitor model performance.
+  label: artificial-intelligence
+  image: artificial-intelligence.jpg
+
+- title: Machine Learning
+  sort_order: 30
+  description: >-
+    Data labeling, feature engineering, model training and optimization, evaluate and monitor model performance.
+  label: machine-learning
+  image: machine-learning.jpg
 
 - title: Modeling &amp; Simulation
-  sort_order: 1
+  sort_order: 40
   description: >-
     Developing data science road-map, scoping projects,
     lead cross-organizational teams in multiple workstreams.
   label: simulation
   image: simulation.jpg
 
-- title: Computer Systems
-  sort_order: 1
+- title: Visualization &amp; User Applications
+  sort_order: 50
   description: >-
     Developing data science road-map, scoping projects,
     lead cross-organizational teams in multiple workstreams.
+  label: visualization
+  image: visualization.jpg
+
+- title: Computer Systems
+  sort_order: 60
+  description: >-
+    Configure on-premise compute clusters, build cloud solutions, implement work-flow orchestration and process automation.
   label: systems
   image: systems.jpg
+

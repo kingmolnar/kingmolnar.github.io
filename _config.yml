@@ -25,7 +25,6 @@ email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   Corporate and Academic Wide-ranging Data-driven Scientist – AI, ML, Physics.
   Engagement Lead with High Returns at the Frontiers of Business Transformation.
-  Molnar, LLC is incorporated in Georgia/USA.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://molnar.ai" # the base hostname & protocol for your site, e.g. http://example.com
@@ -63,4 +62,6 @@ plugins:
 
 collections:
   topics:
+    output: true
+  projects:
     output: true

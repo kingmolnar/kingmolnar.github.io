@@ -1,7 +1,8 @@
 ---
 layout: experience
 title:  "Demand Forecasting"
-category: datascience
+category: machine-learning
+tags:
 ---
 Essential for businesses.
 <!--more-->
