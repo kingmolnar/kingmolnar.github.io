@@ -2,17 +2,20 @@
 var cc = initCookieConsent();
 
 // example logo
-var logo = '<img src="https://fontmeme.com/permalink/220805/3b90158d204fdd325173a5c7873e7cc1.png" alt="Logo" loading="lazy" style="margin-left: -4px; margin-bottom: -5px; height: 35px">';
+// var logo = '<img src="https://fontmeme.com/permalink/220805/3b90158d204fdd325173a5c7873e7cc1.png" alt="Logo" loading="lazy" style="margin-left: -4px; margin-bottom: -5px; height: 35px">';
+var logo = '<div style="">Molnar.AI</div>';
 var cookie = '🍪';
+let privacy_policy_relurl = '/privacy_policy',
+    contact_form_relurl = '/contact_form';
 
 // run plugin with config object
 cc.run({
     current_lang : 'en',
     autoclear_cookies : true,                   // default: false
-    cookie_name: 'cc_cookie_demo1',             // default: 'cc_cookie'
+    cookie_name: 'cc_cookie_molnarai',             // default: 'cc_cookie'
     cookie_expiration : 365,                    // default: 182
     page_scripts: true,                         // default: false
-
+ 
     // auto_language: null,                     // default: null; could also be 'browser' or 'document'
     // autorun: true,                           // default: true
     // delay: 0,                                // default: 0
@@ -79,7 +82,7 @@ cc.run({
                 blocks: [
                     {
                         title: 'Cookie usage 📢',
-                        description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="#" class="cc-link">privacy policy</a>.'
+                        description: `I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="${privacy_policy_relurl}" class="cc-link">privacy policy</a>.`
                     }, {
                         title: 'Strictly necessary cookies',
                         description: 'These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly',
@@ -121,7 +124,7 @@ cc.run({
                         }
                     }, {
                         title: 'More information',
-                        description: 'For any queries in relation to my policy on cookies and your choices, please <a class="cc-link" href="https://orestbida.com/contact">contact me</a>.',
+                        description: `For any queries in relation to my policy on cookies and your choices, please <a class="cc-link" href="${contact_form_relurl}">contact me</a>.`,
                     }
                 ]
             }
