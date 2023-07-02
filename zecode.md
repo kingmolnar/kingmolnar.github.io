@@ -12,10 +12,10 @@ Browse my repositories on GitHub at <https://github.com/kingmolnar/>{:rel="noope
   <h3>
     <a href="{{ prj.url }}">{{ prj.title }}</a>
   </h3>
+  {% if num_tags > 0 %}
+    <div class='tag-list'>{{ prj.tags | array_to_sentence_string }}</div>
+  {%- endif -%}
   <p>
-    {% if num_tags > 0 %}
-      <i>{{ prj.tags | array_to_sentence_string }}</i>
-    {%- endif -%}
     {{ prj.excerpt }}
   </p>
 {% endfor %}

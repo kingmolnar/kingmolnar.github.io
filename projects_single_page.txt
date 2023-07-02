@@ -1,0 +1,17 @@
+---
+layout: null
+comment: >-
+    All documents of the collection in one single file.
+    Load this file into your wordprocessor for spelling and grammar check
+---
+{% for doc in site.projects %}
+URL:  {{doc.url | prepend: site.baseurl }}
+PATH: {{doc.path }}
+{{doc.title}}
+
+{{doc.content | strip_html}}
+
+
+
+{% endfor %}
+

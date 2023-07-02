@@ -1,0 +1,958 @@
+{
+ "metadata": {
+  "collection": "publications",
+  "source": "./scripts/../assets/publications.bib",
+  "created": "2023-07-01T23:44:56.499163",
+  "records": 40
+ },
+ "records": [
+  {
+   "type": "article",
+   "id": "helbing1995social",
+   "citekey": "helbing1995social",
+   "collection": "publications",
+   "title": "Social force model for pedestrian dynamics",
+   "year": "1995",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    }
+   ],
+   "journal": {
+    "name": "Physical Review E",
+    "volume": "51",
+    "number": "5",
+    "pages": "4282"
+   }
+  },
+  {
+   "type": "article",
+   "id": "helbing2001self",
+   "citekey": "helbing2001self",
+   "collection": "publications",
+   "title": "Self-organizing pedestrian movement",
+   "year": "2001",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Farkas, I. J."
+    },
+    {
+     "name": "Bolay, K."
+    }
+   ],
+   "journal": {
+    "name": "Environment and planning B: planning and design",
+    "volume": "28",
+    "number": "3",
+    "pages": "361--383"
+   }
+  },
+  {
+   "type": "article",
+   "id": "helbing2002simulation",
+   "citekey": "helbing2002simulation",
+   "collection": "publications",
+   "title": "Simulation of pedestrian crowds in normal and evacuation situations",
+   "year": "2002",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Farkas, I. J."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Vicsek, T."
+    }
+   ],
+   "journal": {
+    "name": "Pedestrian and evacuation dynamics",
+    "volume": "21",
+    "number": "2",
+    "pages": "21--58"
+   }
+  },
+  {
+   "type": "article",
+   "id": "helbing1997modelling",
+   "citekey": "helbing1997modelling",
+   "collection": "publications",
+   "title": "Modelling the evolution of human trail systems",
+   "year": "1997",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Keltsch, J."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    }
+   ],
+   "journal": {
+    "name": "Nature",
+    "volume": "388",
+    "number": "6637",
+    "pages": "47--50"
+   }
+  },
+  {
+   "type": "article",
+   "id": "helbing1997active",
+   "citekey": "helbing1997active",
+   "collection": "publications",
+   "title": "Active walker model for the formation of human and animal trail systems",
+   "year": "1997",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Schweitzer, F."
+    },
+    {
+     "name": "Keltsch, J."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    }
+   ],
+   "journal": {
+    "name": "Physical review E",
+    "volume": "56",
+    "number": "3",
+    "pages": "2527"
+   }
+  },
+  {
+   "type": "article",
+   "id": "helbing1998self",
+   "citekey": "helbing1998self",
+   "collection": "publications",
+   "title": "Self-organization phenomena in pedestrian crowds",
+   "year": "1998",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    }
+   ]
+  },
+  {
+   "type": "article",
+   "id": "helbing1998computer",
+   "citekey": "helbing1998computer",
+   "collection": "publications",
+   "title": "Computer simulations of pedestrian dynamics and trail formation",
+   "year": "1998",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Schweitzer, F."
+    }
+   ]
+  },
+  {
+   "type": "article",
+   "id": "molnar2001control",
+   "citekey": "molnar2001control",
+   "collection": "publications",
+   "title": "Control of distributed autonomous robotic systems using principles of pattern formation in nature and pedestrian behavior",
+   "year": "2001",
+   "author": [
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Starke, J."
+    }
+   ],
+   "journal": {
+    "name": "IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)",
+    "volume": "31",
+    "number": "3",
+    "pages": "433--435"
+   }
+  },
+  {
+   "type": "inproceedings",
+   "id": "kaplan2001bearings",
+   "citekey": "kaplan2001bearings",
+   "collection": "publications",
+   "title": "Bearings-only target localization for an acoustical unattended ground sensor network",
+   "year": "2001",
+   "booktitle": "Unattended Ground Sensor Technologies and Applications III",
+   "volume": "4393",
+   "organization": "Spie",
+   "pages": "40--51",
+   "author": [
+    {
+     "name": "Kaplan, L. M."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Le, Q."
+    }
+   ]
+  },
+  {
+   "type": "article",
+   "id": "molnar2000communication",
+   "citekey": "molnar2000communication",
+   "collection": "publications",
+   "title": "Communication fault tolerance in distributed robotic systems",
+   "year": "2000",
+   "author": [
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Starke, J."
+    }
+   ]
+  },
+  {
+   "type": "inproceedings",
+   "id": "becht2000three",
+   "citekey": "becht2000three",
+   "collection": "publications",
+   "title": "Three-index assignment of robots to targets: An experimental verification",
+   "year": "2000",
+   "booktitle": "Proceedings of the 6th International Conference on Intelligent Autonomous Systems (IAS-6)",
+   "organization": "IOS Press",
+   "pages": "156--163",
+   "author": [
+    {
+     "name": "Becht, M."
+    },
+    {
+     "name": "Buchheim, T."
+    },
+    {
+     "name": "Burger, P."
+    },
+    {
+     "name": "Hetzel, G."
+    },
+    {
+     "name": "Kindermann, G."
+    },
+    {
+     "name": "Lafrenz, R."
+    },
+    {
+     "name": "Oswald, N."
+    },
+    {
+     "name": "Schanz, M."
+    },
+    {
+     "name": "Schul\u00e9, M."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "others, "
+    }
+   ]
+  },
+  {
+   "type": "inbook",
+   "id": "kaga2000dynamic",
+   "citekey": "kaga2000dynamic",
+   "collection": "publications",
+   "title": "Distributed Autonomous Robotic Systems 4",
+   "year": "2000",
+   "chapter": "Dynamic robot-target assignment\u2014Dependence of recovering from breakdowns on the speed of the selection process",
+   "pages": "325--334",
+   "author": [
+    {
+     "name": "Kaga, T."
+    },
+    {
+     "name": "Starke, J."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Schanz, M."
+    },
+    {
+     "name": "Fukuda, T."
+    }
+   ],
+   "publisher": {
+    "name": "Springer, Japan"
+   }
+  },
+  {
+   "type": "inproceedings",
+   "id": "fadiran2006statistical",
+   "citekey": "fadiran2006statistical",
+   "collection": "publications",
+   "title": "A statistical approach to quantifying clutter in hyperspectral infrared images",
+   "year": "2006",
+   "booktitle": "2006 IEEE Aerospace Conference",
+   "organization": "IEEE",
+   "pages": "10--pp",
+   "author": [
+    {
+     "name": "Fadiran, O. O."
+    },
+    {
+     "name": "Kaplan, P. M. L. M."
+    }
+   ]
+  },
+  {
+   "type": "incollection",
+   "id": "helbing2003simulation",
+   "citekey": "helbing2003simulation",
+   "collection": "publications",
+   "title": "Simulation von Fu\u00dfg\u00e4ngermengen in normalen Situationen und im Evakuierungsfall",
+   "year": "2003",
+   "booktitle": "Tourismus und Sport-Events",
+   "pages": "205--248",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Farkas, I. J."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Vicsek, T."
+    }
+   ],
+   "publisher": {
+    "name": "Forschungsinstitut f\u00fcr Tourismus (FIT)"
+   }
+  },
+  {
+   "type": "inproceedings",
+   "id": "starke2000dynamic",
+   "citekey": "starke2000dynamic",
+   "collection": "publications",
+   "title": "Dynamic control of distributed autonomous robotic systems with underlying three-index assignments",
+   "year": "2000",
+   "booktitle": "2000 26th Annual Conference of the IEEE Industrial Electronics Society. IECON 2000. 2000 IEEE International Conference on Industrial Electronics, Control and Instrumentation. 21st Century Technologies",
+   "volume": "3",
+   "organization": "IEEE",
+   "pages": "2093--2098",
+   "author": [
+    {
+     "name": "Starke, J."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    }
+   ]
+  },
+  {
+   "type": "inbook",
+   "id": "molnar1996microsimulation",
+   "citekey": "molnar1996microsimulation",
+   "collection": "publications",
+   "title": "Social Science Microsimulation",
+   "year": "1996",
+   "chapter": "A microsimulation tool for social force models",
+   "pages": "155--170",
+   "author": [
+    {
+     "name": "Moln\u00e1r, P."
+    }
+   ],
+   "editor": [
+    {
+     "name": {
+      "name": "Troitzsch, Klaus G.",
+      "ID": "TroitzschKlausG"
+     }
+    },
+    {
+     "name": {
+      "name": "Mueller, Ulrich",
+      "ID": "MuellerUlrich"
+     }
+    },
+    {
+     "name": {
+      "name": "Gilbert, G. Nigel",
+      "ID": "GilbertGNigel"
+     }
+    },
+    {
+     "name": {
+      "name": "Doran, Jim E.",
+      "ID": "DoranJimE"
+     }
+    }
+   ],
+   "publisher": {
+    "name": "Springer Berlin Heidelberg"
+   }
+  },
+  {
+   "type": "inproceedings",
+   "id": "kaplan2002autonomous",
+   "citekey": "kaplan2002autonomous",
+   "collection": "publications",
+   "title": "Autonomous node selection for wireless networks of bearings-only sensors",
+   "year": "2002",
+   "booktitle": "Proceedings of the 23rd Army Science Conference",
+   "author": [
+    {
+     "name": "Kaplan, L. M."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Srour, N."
+    },
+    {
+     "name": "Filipov, A."
+    }
+   ]
+  },
+  {
+   "type": "inproceedings",
+   "id": "fadiran2006adaptive",
+   "citekey": "fadiran2006adaptive",
+   "collection": "publications",
+   "title": "Adaptive sampling via histogram equalization using an active walker model",
+   "year": "2006",
+   "booktitle": "5th IEEE/ACIS International Conference on Computer and Information Science and 1st IEEE/ACIS International Workshop on Component-Based Software Engineering, Software Architecture and Reuse (ICIS-COMSAR'06)",
+   "organization": "IEEE",
+   "pages": "424--432",
+   "author": [
+    {
+     "name": "Fadiran, O. O."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Kaplan, L. M."
+    }
+   ]
+  },
+  {
+   "type": "inproceedings",
+   "id": "molnar2000self_spie",
+   "citekey": "molnar2000self_spie",
+   "collection": "publications",
+   "title": "Self-organized task assignment for distributed sensors",
+   "year": "2000",
+   "booktitle": "Sensor Fusion and Decentralized Control in Robotic Systems III",
+   "volume": "4196",
+   "organization": "SPIE",
+   "pages": "189--196",
+   "author": [
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Lockett, E. J."
+    },
+    {
+     "name": "Kaplan, L. M."
+    }
+   ]
+  },
+  {
+   "type": "inproceedings",
+   "id": "molnar2000traffic",
+   "citekey": "molnar2000traffic",
+   "collection": "publications",
+   "title": "Traffic data collection using image processing technology",
+   "year": "2000",
+   "booktitle": "Traffic and Granular Flow'99: Social, Traffic, and Granular Dynamics",
+   "organization": "Springer Berlin Heidelberg",
+   "pages": "357--362",
+   "author": [
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Collins, T. R."
+    }
+   ]
+  },
+  {
+   "type": "article",
+   "id": "molnar2014development",
+   "citekey": "molnar2014development",
+   "collection": "publications",
+   "title": "Development of undergraduate and graduate programs in computational science",
+   "year": "2014",
+   "author": [
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Toth, D. M."
+    },
+    {
+     "name": "Vincent-Finley, R. E."
+    }
+   ],
+   "journal": {
+    "name": "Concurrency and Computation: Practice and Experience",
+    "volume": "26",
+    "number": "13",
+    "pages": "2329--2335"
+   }
+  },
+  {
+   "type": "incollection",
+   "id": "helbing2001modelisation",
+   "citekey": "helbing2001modelisation",
+   "collection": "publications",
+   "title": "Mod\u00e9lisation et simulation des flux de pi\u00e9tons",
+   "year": "2001",
+   "booktitle": "Modelisation Du Trafic; Actes De Groupe De Travail 1997; Actes Inrets N. 74",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    }
+   ],
+   "publisher": {
+    "name": "IFSTTAR"
+   }
+  },
+  {
+   "type": "inproceedings",
+   "id": "lafrenz2000experimental",
+   "citekey": "lafrenz2000experimental",
+   "collection": "publications",
+   "title": "Experimental study of self-organized fault-tolerant behavior in robotic systems",
+   "year": "2000",
+   "booktitle": "Autonome Mobile Systeme 2000: 16. Fachgespr\u00e4ch Karlsruhe, 20./21. November 2000",
+   "organization": "Springer Berlin Heidelberg",
+   "pages": "210--217",
+   "author": [
+    {
+     "name": "Lafrenz, R."
+    },
+    {
+     "name": "Schul\u00e9, M."
+    },
+    {
+     "name": "Becht, M."
+    },
+    {
+     "name": "Schanz, M."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Starke, J."
+    },
+    {
+     "name": "Levi, P."
+    }
+   ]
+  },
+  {
+   "type": "inproceedings",
+   "id": "molnar2013development",
+   "citekey": "molnar2013development",
+   "collection": "publications",
+   "title": "Development of undergraduate programs in computational science: panel",
+   "year": "2013",
+   "booktitle": "Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery",
+   "pages": "1--2",
+   "author": [
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Toth, D. M. T."
+    },
+    {
+     "name": "Vincent-Finley, R. E."
+    }
+   ]
+  },
+  {
+   "type": "inproceedings",
+   "id": "fadiran2006maximizing",
+   "citekey": "fadiran2006maximizing",
+   "collection": "publications",
+   "title": "Maximizing diversity in synthesized hyperspectral images",
+   "year": "2006",
+   "booktitle": "Targets and Backgrounds XII: Characterization and Representation",
+   "volume": "6239",
+   "organization": "SPIE",
+   "pages": "11--22",
+   "author": [
+    {
+     "name": "Fadiran, O. O."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    }
+   ]
+  },
+  {
+   "type": "article",
+   "id": "molnar2000supervisory",
+   "citekey": "molnar2000supervisory",
+   "collection": "publications",
+   "title": "Supervisory Control of Robot Swarms Using Self-Organization",
+   "year": "2000",
+   "author": [
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Sarathy, S."
+    }
+   ],
+   "journal": {
+    "name": "SIMULATION SERIES",
+    "volume": "32",
+    "number": "3",
+    "pages": "219--222"
+   }
+  },
+  {
+   "type": "incollection",
+   "id": "molnar2000self_nasa",
+   "citekey": "molnar2000self_nasa",
+   "collection": "publications",
+   "title": "Self-organized navigation control for manned and unmanned vehicles in space colonies",
+   "year": "2000",
+   "booktitle": "ISRA Grant 07600--044",
+   "author": [
+    {
+     "name": "Moln\u00e1r, P."
+    }
+   ],
+   "publisher": {
+    "name": "NASA Institute of Advanced Concepts"
+   }
+  },
+  {
+   "type": "article",
+   "id": "sarathy2002simulation",
+   "citekey": "sarathy2002simulation",
+   "collection": "publications",
+   "title": "Simulation Framework for Cooperative Network of Large Scale Unmanned Aerial Vehicles",
+   "year": "2002",
+   "author": [
+    {
+     "name": "Sarathy, S."
+    },
+    {
+     "name": "Shujaee, K."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Cannon, K."
+    }
+   ],
+   "journal": {
+    "name": "SIMULATION SERIES",
+    "volume": "34",
+    "number": "3",
+    "pages": "43--47"
+   }
+  },
+  {
+   "type": "article",
+   "id": "molnar2001combinatorial",
+   "citekey": "molnar2001combinatorial",
+   "collection": "publications",
+   "title": "Combinatorial Problem Solving in Distributed Systems of Unattended Ground Sensors",
+   "year": "2001",
+   "author": [
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Kaplan, L. M."
+    },
+    {
+     "name": "Lockett, E. J."
+    }
+   ],
+   "journal": {
+    "name": "SIMULATION SERIES",
+    "volume": "33",
+    "number": "4",
+    "pages": "219--228"
+   }
+  },
+  {
+   "type": "article",
+   "id": "molnar2012traffic",
+   "citekey": "molnar2012traffic",
+   "collection": "publications",
+   "title": "Traffic Data Collection Using Image Processing",
+   "year": "2012",
+   "author": [
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Collins, T. R."
+    }
+   ]
+  },
+  {
+   "type": "inproceedings",
+   "id": "kaplan2001maximum",
+   "citekey": "kaplan2001maximum",
+   "collection": "publications",
+   "title": "Maximum likelihood methods for bearings-only target localization",
+   "year": "2001",
+   "booktitle": "2001 IEEE International Conference on Acoustics, Speech, and Signal Processing. Proceedings (Cat. No. 01CH37221)",
+   "volume": "5",
+   "organization": "IEEE",
+   "pages": "3001--3004",
+   "author": [
+    {
+     "name": "Kaplan, L. M."
+    },
+    {
+     "name": "Le, Q."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    }
+   ]
+  },
+  {
+   "type": "article",
+   "id": "molnar2012robotic",
+   "citekey": "molnar2012robotic",
+   "collection": "publications",
+   "title": "Robotic Systems",
+   "year": "2012",
+   "author": [
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Starke, J."
+    }
+   ]
+  },
+  {
+   "type": "article",
+   "id": "helbing1994strukturbildung",
+   "citekey": "helbing1994strukturbildung",
+   "collection": "publications",
+   "title": "Strukturbildung dynamischer Systeme",
+   "year": "1994",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Hilliges, M."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Schweitzer, F."
+    },
+    {
+     "name": "Wunderlin, A."
+    }
+   ]
+  },
+  {
+   "type": "incollection",
+   "id": "helbing2001correlated",
+   "citekey": "helbing2001correlated",
+   "collection": "publications",
+   "title": "Correlated motion of pedestrians",
+   "year": "2001",
+   "booktitle": "Fluctuations and Scaling in Biology",
+   "pages": "210--242",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    }
+   ],
+   "publisher": {
+    "name": "Oxford University Press"
+   }
+  },
+  {
+   "type": "article",
+   "id": "helbing2002pedestrian",
+   "citekey": "helbing2002pedestrian",
+   "collection": "publications",
+   "title": "Pedestrian and evacuation dynamics",
+   "year": "2002",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Farkas, I. J."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Vicsek, T."
+    }
+   ]
+  },
+  {
+   "type": "article",
+   "id": "helbing2002t",
+   "citekey": "helbing2002t",
+   "collection": "publications",
+   "title": "Simulation of pedestrian crowds in normal and evacuation situations",
+   "year": "2002",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Farkas, I. J."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Vicsek, T."
+    }
+   ]
+  },
+  {
+   "type": "inproceedings",
+   "id": "helbing1997self",
+   "citekey": "helbing1997self",
+   "collection": "publications",
+   "title": "Self-organization of complex structures. from individual to collective dynamics",
+   "year": "1997",
+   "booktitle": "Proceedings of the International Conference held in Berlin",
+   "pages": "24--28",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    }
+   ]
+  },
+  {
+   "type": "misc",
+   "id": "helbing1997self_chapter",
+   "citekey": "helbing1997self_chapter",
+   "collection": "publications",
+   "title": "Self-organization phenomena in pedestrian crowds in: Frank Schweitzer (ed.) Self-Organization of Complex Structures: From Individual to Collective Dynamics",
+   "year": "1997",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    }
+   ]
+  },
+  {
+   "type": "inbook",
+   "id": "helbing2002pedestrian_chapter",
+   "citekey": "helbing2002pedestrian_chapter",
+   "collection": "publications",
+   "title": "Pedestrian and Evacuation Dynamics",
+   "year": "2002",
+   "chapter": "",
+   "pages": "19--58",
+   "author": [
+    {
+     "name": "Helbing, D."
+    },
+    {
+     "name": "Farkas, I. J."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Vicsek, T."
+    }
+   ],
+   "editor": [
+    {
+     "name": {
+      "name": "Schreckenberg, M.",
+      "ID": "SchreckenbergM"
+     }
+    },
+    {
+     "name": {
+      "name": "Sharma, S. D.",
+      "ID": "SharmaSD"
+     }
+    }
+   ],
+   "publisher": {
+    "name": "Springer Verlag, Berlin, Germany"
+   }
+  },
+  {
+   "type": "book",
+   "id": "molnar1995",
+   "citekey": "molnar1995",
+   "collection": "publications",
+   "title": "Modellierung und Simulation der Dynamik von Fussg\u00e4ngerstr\u00f6men",
+   "year": "1995",
+   "author": [
+    {
+     "name": "Moln\u00e1r, P."
+    }
+   ],
+   "publisher": {
+    "name": "Shaker Verlag, Aachen, Germany. ISBN 3-8265-1191-3"
+   }
+  }
+ ]
+}

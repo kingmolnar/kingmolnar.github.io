@@ -8,7 +8,7 @@
   </h3>
   <p>
     {% if num_tags > 0 %}
-      <i>{{ post.tags | array_to_sentence_string }}</i>
+      <div class="tag-list">{{ post.tags | array_to_sentence_string }}</div>
     {%- endif -%}
     {{ post.excerpt }}
   </p>

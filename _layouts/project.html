@@ -6,20 +6,19 @@ layout: base
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <div class="left-line">
-      Visit the repository at <a href="{{ page.web_url }}" target="_blank"
+      Visit this repository at <a href="{{ page.web_url }}" target="_blank"
        rel="noopener noreferrer">{{ page.web_url }}</a>
     </div>
+    {%- assign num_tags = page.tags | size -%}
+    {%- if num_tags > 0  -%}
+      <div class="tag-list">{{ page.tags | array_to_sentence_string }}</div>
+    {%- endif -%}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-  {%- assign num_tags = page.tags | size -%}
-  {%- if num_tags > 0  -%}
-  <div>
-    <i><b>Tags:</b> {{ page.tags | array_to_sentence_string }}</i>
-  </div>
-  {%- endif -%}
+  
   
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

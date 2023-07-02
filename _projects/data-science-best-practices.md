@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Data-Science-Best-Practices
+title: Data Science Best Practices
 git_url: git@github.com:kingmolnar/Data-Science-Best-Practices.git
 protocol: git@github.com
 web_url: https://github.com/kingmolnar/Data-Science-Best-Practices/
@@ -14,8 +14,7 @@ tags:
 Learn about best practices on coding and data management
 <!--more-->
 
-## Outline
-
+### Outline
 - Python coding practices for re-producible code using notebooks and define functions
 - Source code management and versioning
 - Code documentation and testing

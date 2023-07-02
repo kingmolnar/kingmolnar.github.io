@@ -141,10 +141,15 @@ a.no-decoration {
     color: #576366;
 }
 
-.publication-list li {
-    list-style-type: none;
+.publication-list {
+    list-style-type: square;
+    //list-style:none;
     padding-left: 0;
-    padding-bottom: 0.25rem;
+    margin-left: 0rem;
+}
+
+.publication-list li {
+    padding-bottom: 0.5rex;
 }
 
 .category-side-flag {
@@ -182,4 +187,28 @@ a.no-decoration {
 }
 .category-nav-bar td:hover {
     background-color: #ddd;
+}
+
+.tag-list {
+    font-style: italic;
+    font-size: smaller;
+    color: #576366;
+}
+.tag-list:before {
+    content:"Tags: ";
+}
+
+.profile-image {
+    float: left;
+    width: 240px;
+    height: 236px;
+}
+
+.profile-text {
+    float: right;
+    max-width: 420px;
+}
+
+.profile-image-text-block {
+    padding-bottom: 3rem;
 }

@@ -8,3 +8,7 @@ tags:
     - IoT
     - Machine Learning
 ---
+
+<!--more-->
+## Use Case
+- Customer tracking in brick-and-morta retail stores

@@ -31,6 +31,8 @@ url: "https://molnar.ai" # the base hostname & protocol for your site, e.g. http
 linkedin_username: petermolnar
 github_username:  kingmolnar
 
+google_analytics: G-MPZ3FVRMW7
+
 show_only_blog_posts: true
 show_excerpts: true
 excerpt_separator: <!--more-->
@@ -48,17 +50,19 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .venv/
+  - scripts/
 
 collections:
   topics:
