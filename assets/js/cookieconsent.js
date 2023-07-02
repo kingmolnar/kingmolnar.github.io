@@ -1553,6 +1553,9 @@
 
                     if(typeof onAccept === 'function')
                         onAccept(saved_cookie_content);
+                    
+                    // drastic measure to get rid off modal
+                    document.getElementById('cc_div').style.display = "none";
 
                     _log("CookieConsent [NOTICE]: consent already given!", saved_cookie_content);
 
@@ -1899,9 +1902,6 @@
 
             setFocus(last_elem_before_modal);
             last_elem_before_modal = null;
-
-            // drastic measure to get rid off modal
-            document.getElementById('cc_div').style.display = "none";
 
             _log("CookieConsent [MODAL]: hide");
         }
