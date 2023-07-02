@@ -1,13 +1,4 @@
 {% assign pub = include.item %} 
-<!--
-$ jq ".records[].type" < _data/publications.json  | sort | uniq -c 
-  21 "article
-   1 "book"
-   1 "inbook"
-   4 "incollection"
-  13 "inproceedings"
-   3 "misc"
-   1 "techreport" -->
 <li>
     {{ pub.author | map: "name" | array_to_sentence_string: "&amp;" }} ({{ pub.year }}).
     {% case pub.type %}
