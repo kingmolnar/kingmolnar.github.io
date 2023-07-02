@@ -1,7 +1,7 @@
 ---
 layout: base
 exclude: true
-title: ""
+title: null
 ---
 # GDPR Policy
 
