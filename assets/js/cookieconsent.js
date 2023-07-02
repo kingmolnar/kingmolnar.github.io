@@ -1900,6 +1900,9 @@
             setFocus(last_elem_before_modal);
             last_elem_before_modal = null;
 
+            // drastic measure to get rid off modal
+            document.getElementById('cc_div').style.display = "none";
+
             _log("CookieConsent [MODAL]: hide");
         }
 
