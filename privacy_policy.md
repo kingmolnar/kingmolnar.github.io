@@ -25,7 +25,7 @@ Please note that we do not collect any personally identifiable information (PII)
 
 We use cookies on our website to enhance your browsing experience, analyze website traffic, and serve personalized advertisements through Google AdSense. Cookies are small text files stored on your device that help us remember your preferences and improve the overall functionality of our website.
 
-By using our website, you consent to the use of cookies in accordance with our [Cookie Policy](link-to-your-cookie-policy).
+By using our website, you consent to the use of cookies in accordance with our policy.
 
 ## 3. Data Sharing and Disclosure
 
@@ -58,10 +58,7 @@ We reserve the right to update or modify this GDPR policy at any time. Any chang
 
 ## 8. Contact Us
 
-If you have any questions, concerns, or requests regarding this GDPR policy or the processing of your personal data, please contact us at:
-
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- Address: [Your Company Name, Address, City, Postal Code]
+If you have any questions, concerns, or requests regarding this GDPR policy or the processing of your personal data, please contact us at    [privacy@kingmolnar.com](mailto:privacy@kingmolnar.com)
 
 ---
 

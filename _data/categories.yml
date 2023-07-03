@@ -1,38 +1,41 @@
-- title: Strategy &amp; Delivery
+- title: Strategy, Delivery &amp; Education
   sort_order: 10
   description: >-
-    Developing data science road-map, scoping projects,
-    lead cross-organizational teams in multiple workstreams.
+    Develop data science road-map, scope projects,
+    lead cross-organizational teams in multiple workstreams, public speaking, conduct lectures and workshops,
+    author technical and scientific articles.
   label: strategy
   image: strategy.jpg
 
 - title: Artificial Intelligence
   sort_order: 20
   description: >-
-    Data labeling, feature engineering, model training and optimization, evaluate and monitor model performance.
+    Build reasoning systems, 
   label: artificial-intelligence
   image: artificial-intelligence.jpg
 
 - title: Machine Learning
   sort_order: 30
   description: >-
-    Data labeling, feature engineering, model training and optimization, evaluate and monitor model performance.
+    Data labeling, feature engineering, model training and optimization, evaluate and monitor
+    model performance, align insights with business question.
   label: machine-learning
   image: machine-learning.jpg
 
 - title: Modeling &amp; Simulation
   sort_order: 40
   description: >-
-    Developing data science road-map, scoping projects,
-    lead cross-organizational teams in multiple workstreams.
+    Develop computational models for multi-agent systems, robots teams, and sensor and communication network nodes.
+    Implement simulation programs for diverse compute platforms. Visualization of simulated scenes.
   label: simulation
   image: simulation.jpg
 
 - title: Visualization &amp; User Applications
   sort_order: 50
   description: >-
-    Developing data science road-map, scoping projects,
-    lead cross-organizational teams in multiple workstreams.
+    Implement custom visulizations for machine learning and analysis results,
+     build interactive viusal tools for data exploration and data labeling.
+    Analyze web-user behavior, perform multivariate testing and web-experimentation.
   label: visualization
   image: visualization.jpg
 
@@ -40,6 +43,7 @@
   sort_order: 60
   description: >-
     Configure on-premise compute clusters, build cloud solutions, implement work-flow orchestration and process automation.
+    Unix/Linux system administration. Development for embedded systems and IoT devices.
   label: systems
   image: systems.jpg
 

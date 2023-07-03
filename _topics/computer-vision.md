@@ -3,9 +3,10 @@ layout: experience
 title:  "Computer Vision"
 category: machine-learning
 tags:
-    - "Life Science"
-    - "Artificial Intelligence"
-    - "Machine Learning"
+    - Life Science
+    - Artificial Intelligence
+    - Machine Learning
+    - Manufacturing
 ---
 Lorem
 <!--more-->

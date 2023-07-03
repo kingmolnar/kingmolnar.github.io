@@ -5,16 +5,6 @@ permalink: /research/
 ---
 Follow me on ResearchGate at <https://www.researchgate.net/profile/Peter-Molnar-5>{:rel="noopener noreferrer"}
 
-<!--
-$ jq ".records[].type" < _data/publications.json  | sort | uniq -c 
-  21 "article
-   1 "book"
-   1 "inbook"
-   4 "incollection"
-  13 "inproceedings"
-   3 "misc"
-   1 "techreport" -->
-
 {% assign publications = site.data.publications.records %}
 {% assign article_list = publications | where: "type", "article" %}
 {% assign book_list = publications | where: "type", "book" %}

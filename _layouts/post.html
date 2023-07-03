@@ -23,19 +23,16 @@ layout: base
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-      {%- endif -%}</p>
+      {%- endif -%}
+    </p>
   </header>
-
+  {%- assign num_tags = page.tags | size -%}
+  {%- if num_tags > 0  -%}
+    <div class="tag-list">{{ page.tags | sort | array_to_sentence_string }}</div>
+  {%- endif -%}
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-
-  {%- assign num_tags = page.tags | size -%}
-  {%- if num_tags > 0  -%}
-  <div>
-    <i><b>Tags:</b> {{ page.tags | array_to_sentence_string }}</i>
-  </div>
-  {%- endif -%}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

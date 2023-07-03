@@ -11,7 +11,7 @@ layout: base
 
 {% assign cat_list = site.data.categories | sort: "sort_order" %}
 {% for cat in cat_list %}
-   
+
     <article class="box-item category-{{cat.label}}"
         onclick="location.href='/experience/#{{ cat.label }}';"
         style="cursor: pointer;">

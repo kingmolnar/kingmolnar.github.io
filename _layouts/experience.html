@@ -27,7 +27,7 @@ layout: base
   </header>
   {%- assign num_tags = page.tags | size -%}
   {%- if num_tags > 0  -%}
-    <div class="tag-list">{{ page.tags | array_to_sentence_string }}</div>
+    <div class="tag-list">{{ page.tags | sort | array_to_sentence_string }}</div>
   {%- endif -%}
 
   <div class="post-content e-content" itemprop="articleBody">
