@@ -1,0 +1,11 @@
+---
+layout: null
+references:
+    - https://tin.ng/jekyll-category-tag-for-custom-collection/
+    - https://stackoverflow.com/questions/35206959/cannot-remove-line-break-generated-by-for-loop-in-jekyll
+comment: "list categories for each collection: posts, projects, and topics"
+---
+Order|Label|Title
+{% assign categories = site.data.categories | sort: "sort_order" %}
+{% for cat in categories %}{{ cat.sort_order }}|{{ cat.label }}|{{ cat.title }}
+{% endfor %}

@@ -13,11 +13,18 @@
             {% if pub.isbn %}ISBN: {{pub.isbn}}{% endif %}
 
         {% when "inbook" %}
-            {{ pub.title }}.
-            {{ pub.publisher.name }}. [{{pub.type}}]
+            {% if pub.chapter.size > 0 %}{{ pub.chapter}}, {% endif %}
+            in: 
+            {% if pub.editor %}{{ pub.editor | map: "name" | map: "name" | array_to_sentence_string: "&amp;" }} (eds.){% endif %}
+            <i>{{ pub.title }}</i>.
+            {% if pub.publisher %}{{ pub.publisher.name }}.{% endif %}
 
         {% when "incollection" %}
-            {{ pub.title }}. [{{pub.type}}]
+            {{ pub.title }}
+            in:
+            {% if pub.editor %}{{ pub.editor | map: "name" | map: "name" | array_to_sentence_string: "&amp;" }} (eds.){% endif %}
+            <i>{{ pub.booktitle }}</i>{% if pub.publisher %}, {{ pub.publisher.name }}{% endif %}{%if pub.pages %}, {{pub.pages}}{% endif %}.
+
 
         {% when "inproceedings" %}
             {{ pub.title }}.

@@ -15,8 +15,8 @@ Follow me on ResearchGate at <https://www.researchgate.net/profile/Peter-Molnar-
 {% assign techreport_list = publications | where: "type", "techreport" %}
 
 {% assign monographs = book_list | concat: techreport_list | sort: "year" | reverse %}
-{% assign chapters =  inbook_list | sort: "year" | reverse %}
-{% assign papers = article_list | concat: inproceedings_list | concat: incollection_list | concat: misc_list | sort: "year" | reverse %}
+{% assign chapters =  inbook_list | concat: incollection_list | sort: "year" | reverse %}
+{% assign papers = article_list | concat: inproceedings_list | concat: misc_list | sort: "year" | reverse %}
 
 ## Monographs
 <ul class="publication-list">

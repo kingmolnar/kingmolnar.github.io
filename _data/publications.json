@@ -2,7 +2,7 @@
  "metadata": {
   "collection": "publications",
   "source": "./scripts/../assets/publications.bib",
-  "created": "2023-07-01T23:44:56.499163",
+  "created": "2023-07-03T17:26:57.746982",
   "records": 40
  },
  "records": [
@@ -218,12 +218,14 @@
    ]
   },
   {
-   "type": "article",
+   "type": "inbook",
    "id": "molnar2000communication",
    "citekey": "molnar2000communication",
    "collection": "publications",
-   "title": "Communication fault tolerance in distributed robotic systems",
+   "title": "Distributed Autonomous Robotic Systems 4",
    "year": "2000",
+   "chapter": "Communication fault tolerance in distributed robotic systems",
+   "pages": "99--108",
    "author": [
     {
      "name": "Moln\u00e1r, P."
@@ -231,7 +233,30 @@
     {
      "name": "Starke, J."
     }
-   ]
+   ],
+   "editor": [
+    {
+     "name": {
+      "name": "Parker, Lynne E.",
+      "ID": "ParkerLynneE"
+     }
+    },
+    {
+     "name": {
+      "name": "Bekey, George",
+      "ID": "BekeyGeorge"
+     }
+    },
+    {
+     "name": {
+      "name": "Barhen, Jacob",
+      "ID": "BarhenJacob"
+     }
+    }
+   ],
+   "publisher": {
+    "name": "Springer Japan"
+   }
   },
   {
    "type": "inproceedings",
@@ -303,6 +328,26 @@
     },
     {
      "name": "Fukuda, T."
+    }
+   ],
+   "editor": [
+    {
+     "name": {
+      "name": "Parker, Lynne E.",
+      "ID": "ParkerLynneE"
+     }
+    },
+    {
+     "name": {
+      "name": "Bekey, George",
+      "ID": "BekeyGeorge"
+     }
+    },
+    {
+     "name": {
+      "name": "Barhen, Jacob",
+      "ID": "BarhenJacob"
+     }
     }
    ],
    "publisher": {
@@ -882,12 +927,14 @@
    ]
   },
   {
-   "type": "misc",
+   "type": "inbook",
    "id": "helbing1997self_chapter",
    "citekey": "helbing1997self_chapter",
    "collection": "publications",
-   "title": "Self-organization phenomena in pedestrian crowds in: Frank Schweitzer (ed.) Self-Organization of Complex Structures: From Individual to Collective Dynamics",
+   "title": "Self-Organization of Complex Structures: From Individual to Collective Dynamics",
    "year": "1997",
+   "chapter": "Self-organization phenomena in pedestrian crowds",
+   "pages": "",
    "author": [
     {
      "name": "Helbing, D."
@@ -895,7 +942,18 @@
     {
      "name": "Moln\u00e1r, P."
     }
-   ]
+   ],
+   "editor": [
+    {
+     "name": {
+      "name": "Schweitzer, Frank",
+      "ID": "SchweitzerFrank"
+     }
+    }
+   ],
+   "publisher": {
+    "name": "Gordon and Breach, London"
+   }
   },
   {
    "type": "inbook",

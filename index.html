@@ -1,35 +1,100 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: base
 ---
 <div class="jumbo">
     Leading business transformation with emerging technologies
 </div>
-<div id="grid" class="row flex-grid">
-
-{% assign cat_list = site.data.categories | sort: "sort_order" %}
-{% for cat in cat_list %}
-
-    <article class="box-item category-{{cat.label}}"
-        onclick="location.href='/experience/#{{ cat.label }}';"
-        style="cursor: pointer;">
-        <!-- <span class="ribbon">
-            <a href="{{site.url}}{{site.baseurl}}/category/{{cat.label}}"><span>{{cat.label}}</span></a>
-        </span> -->
-        <div class="box-body">
-            <h3><a href="/experience/#{{ cat.label }}">{{ cat.title }}</a></h3>
-            <p>{{ cat.description }}</p>
-        </div>
-    </article>
-
-{% endfor %}
+<div class="profile-image-text-block">
+    <img class="profile-picture" src="/assets/molnar-linkedin-polaroid-200x200.png" />
+    <div class="profile-text">
+        <p>
+            Multidisciplinary and inter-culturally data science and design leader
+            passionate about creating value from analytics, modeling, and simulations.   
+        </p>
+        <p>
+            Academic and business professional advancing and applying emerging technologies in
+            both public and private domains, based on forward-looking research on observations. 
+        </p>
+        <p>
+            Focus on capturing and actualizing the value of technology in business and society.
+        </p>
+    </div>
 </div>
-<div class="center-line">
-    Click on the tiles to learn more<br/ >
-    Connect on <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"
-        target="_blank"
-        rel="noopener noreferrer">LinkedIn</a> to start the conversation
+<div class="jumbo">
+    Engagement lead with high returns at the frontiers of business transformation
+</div>
+<div id="tripytch" class="row flex-grid">
+    <div class="profile-triptych">
+        <h3 class="domain-title">Industry/Private Sector</h3>
+        <p class="domain-text">Business Value of Data Science and AI/ML. Leadership from solutioning to productionisation</p>
+    </div>
+    <div class="profile-triptych">
+        <h3 class="domain-title">Academia</h3>
+        <p>Computer/Data Science. Published research, teaching, curriculum development, service, grant writing guidance</p> 
+    </div>
+    <div class="profile-triptych">
+        <h3 class="domain-title">Non-profit</h3>
+        <p>Public safety strategy, frontier analytics, community outreach</p>
+    </div>
+</div>
+<div class="jumbo">
+    Corporate and academic wide-ranging data-driven scientist – AI, ML, Physics
+</div>
+<!-- <div class="profile-block">
+    ABOUT ME: I am driven by curiosity, expanding the power of my knowledge base, and participating in architecting the future.
+    Always ready for extraordinary new challenges
+</div> -->
+<div id="grid" class="row flex-grid">
+    <div class="profile-block term-list">
+        <h3>Industries</h3>
+        <ul>
+            <li>Health Care, Life Science</li>
+            <li>Retail (Consumer Behavior, Supply Chain)</li>
+            <li>Manufacturing</li>
+            <li>Policing/Public Safety</li>
+            <li>Higher Education</li>
+            <li>Public Sector</li>
+        </ul>
+    <!-- </div>
+    <div class="profile-block term-list"> -->
+        <h3>Solution Space</h3>
+        <ul>
+            <li>Artificial Intelligence</li>
+            <li>Natural Language Understanding</li>
+            <li>Machine Learning</li>
+            <li>Demand Forecasting</li>
+            <li>Recommender Systems</li>
+            <li>Computer Vision</li>
+            <li>Sensor Fusion</li>
+            <li>Multi-agent Simulations</li>
+            <li>Robotics</li>
+        </ul>
+    </div>
+    <div class="profile-block term-list">
+        <h3>Global Reach</h3>
+        <ul>
+            <li>Worked with teams in four continents</li>
+            <li>Internationally published author and speaker</li>
+        </ul>
+    <!-- </div>
+    <div class="profile-block term-list"> -->
+        <h3>Education</h3>
+        <ul>
+            <li>University of Stuttgart, Germany. Doctor, Theoretical Physics (Dr. rerum naturalis)</li>
+            <li>Georgia Augusta University, Göttingen, Germany. Master+ Physics and Informatics</li>
+        </ul>
+    <!-- </div>
+    <div class="profile-block term-list"> -->
+        <h3>Languages</h3>
+        <ul>
+            <li>English (Native or Bilingual)</li>
+            <li>German (Native or Bilingual)</li>
+        </ul>
+    </div>
+</div>
+<div class="left-line">
+    Learn about my <a href="{{ '/experience' | baseurl }}">Experience</a>,
+    read my <a href="{{ '/blog' | baseurl }}">Blog</a> posts, explore my <a href="{{ '/code' | baseurl }}">Code</a> projects,
+    browse through my <a href="{{ '/research' | baseurl }}">Research</a> papers. Start the conversation.
 </div>
 

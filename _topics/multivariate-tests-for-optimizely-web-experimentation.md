@@ -4,7 +4,7 @@ title: Multivariate tests for Optimizely Web Experimentation
 category: visualization
 tags:
     - Web Application
-    - Retail Analytic
+    - Retail Analytics
     - Marketing
 ---
 Lorem ipsum

@@ -69,3 +69,5 @@ collections:
     output: true
   projects:
     output: true
+  solutions:
+    output: true

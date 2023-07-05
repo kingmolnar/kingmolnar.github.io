@@ -1,8 +1,8 @@
 - title: Strategy, Delivery &amp; Education
   sort_order: 10
   description: >-
-    Develop data science road-map, scope projects,
-    lead cross-organizational teams in multiple workstreams, public speaking, conduct lectures and workshops,
+    Develop data science road-maps, scope projects,
+    lead cross-organizational teams in multiple workstreams, present at conferences and meetups, conduct lectures and workshops,
     author technical and scientific articles.
   label: strategy
   image: strategy.jpg
@@ -10,15 +10,16 @@
 - title: Artificial Intelligence
   sort_order: 20
   description: >-
-    Build reasoning systems, 
+    Build reasoning systems based on symbolic and statistical models.
+    Implement information extraction from documents. Develop kownledge graphs and ontologies.
   label: artificial-intelligence
   image: artificial-intelligence.jpg
 
 - title: Machine Learning
   sort_order: 30
   description: >-
-    Data labeling, feature engineering, model training and optimization, evaluate and monitor
-    model performance, align insights with business question.
+    Align machine learning approach with business question. Implement solutions for data labeling, feature engineering, model training and optimization.
+    Evaluate and monitor model performance, communicate insights.
   label: machine-learning
   image: machine-learning.jpg
 
