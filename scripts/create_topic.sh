@@ -35,7 +35,7 @@ fi
 FILE="${DRAFT}/${NAME}.md"
 cat <<EOF > $FILE
 ---
-layout: post
+layout: experience
 title:  ${TITLE}
 sort_order: 100
 category: ${CATEGORY}
@@ -45,6 +45,9 @@ EOF
 $SCRIPTS/list_tags.sh | while read TAG; do echo "    - $TAG" >> $FILE; done
 
 cat <<EOF >> $FILE
+summary: >-
+    Lorem ispum
+references:
 ---
 Lorem ispum
 <!--more-->
@@ -59,4 +62,6 @@ then
 else
     echo "Created ${FILE}"
 fi
+
+open -a "/Applications/Visual Studio Code.app" "$FILE"
 # rm -rf $TMP
