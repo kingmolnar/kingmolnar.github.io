@@ -9,4 +9,4 @@ category: strategy
 Much is written about ChatGPT and other generative artificial intelligence (GenAI) models. That made me wonder if these tools can help to write an article.
 <!--more-->
 
-[Read this article on Medium]({{ page.external_url }})
+{% include read_this_on_medium.md item = page.external_url %}

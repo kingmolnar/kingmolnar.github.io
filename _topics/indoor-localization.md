@@ -1,14 +1,18 @@
 ---
 layout: experience
-title:  "Indoor Localization"
-category: machine-learning
+title:  Indoor Localization
+sort_order: 70
+category:  ai-ml 
 tags:
-    - Retail Analytics
-    - Sensors
+    - Artificial Intelligence
+    - Data Science
     - IoT
     - Machine Learning
+    - Retail Analytics
+    - Sensors
+summary: >-
+    Collect customer data in brick-and-mortar retail spaces: duration of stay, return visits, zones. Develop IoT devices for smart-phone tracking, laboratory and field study, evaluate accuracy, feasibility, and privacy.
 ---
-
 <!--more-->
-## Use Case
-- Customer tracking in brick-and-morta retail stores
+Collect customer data in brick-and-mortar retail spaces: duration of stay, return visits, zones. Develop IoT devices for smart-phone tracking, laboratory and field study, evaluate accuracy, feasibility, and privacy.
+

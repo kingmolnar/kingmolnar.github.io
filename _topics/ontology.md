@@ -1,8 +1,8 @@
 ---
 layout: experience
-title:  "Ontology"
+title:  "Develop Graph Ontology"
 category: strategy
-sort_order: 10
+sort_order: 200
 tags:
     - Life Science
     - Graph Database

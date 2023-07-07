@@ -2,7 +2,7 @@
 layout: post
 title: Build workflows for Amazon Forecast with AWS Step Functions
 external_url: https://aws.amazon.com/blogs/compute/build-workflows-for-amazon-forecast-with-aws-step-functions/
-category: machinelearning
+category: ai-ml
 tags:
     - AWS
     - Demand Forecasting
