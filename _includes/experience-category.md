@@ -13,7 +13,7 @@
       {% if num_tags > 0 %}
         <div class="tag-list">{{ post.tags | array_to_sentence_string }}</div>
       {%- endif -%}
-      {{ post.excerpt }}
+      {% if post.summary %}{{ post.summary }}{% else %}{{ post.excerpt }}{% endif %}
     </p>
   </li>
 {% endfor %}
