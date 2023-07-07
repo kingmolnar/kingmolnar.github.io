@@ -5,7 +5,7 @@ git_url: git@github.com:kingmolnar/kingmolnar.github.io.git
 protocol: git@github.com
 web_url: https://github.com/kingmolnar/kingmolnar.github.io.git/
 sort_order: 100
-category:
+category: visualization
 tags:
   - Web Application
 ---

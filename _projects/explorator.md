@@ -6,6 +6,10 @@ protocol: git@github.com
 web_url: https://github.com/kingmolnar/Explorator/
 category: 
 tags:
+    - Collaboration Tools
+    - Data Science
+    - Web Application
+    - Relational Database
 ---
 The Explorator is a tool to navigate, search, and annotate schemas of structured tables
 <!--more-->
