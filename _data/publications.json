@@ -2,8 +2,8 @@
  "metadata": {
   "collection": "publications",
   "source": "./scripts/../assets/publications.bib",
-  "created": "2023-07-03T17:26:57.746982",
-  "records": 40
+  "created": "2023-07-06T23:03:34.084699",
+  "records": 41
  },
  "records": [
   {
@@ -1010,6 +1010,42 @@
    ],
    "publisher": {
     "name": "Shaker Verlag, Aachen, Germany. ISBN 3-8265-1191-3"
+   }
+  },
+  {
+   "type": "article",
+   "id": "Muna_aircorridors2021",
+   "citekey": "Muna_aircorridors2021",
+   "collection": "publications",
+   "title": "Air Corridors: Concept, Design, Simulation, and Rules of Engagement",
+   "year": "2021",
+   "author": [
+    {
+     "name": "Muna, S. I."
+    },
+    {
+     "name": "Mukherjee, S."
+    },
+    {
+     "name": "Namuduri, K."
+    },
+    {
+     "name": "Compere, M."
+    },
+    {
+     "name": "Akbas, M. I."
+    },
+    {
+     "name": "Moln\u00e1r, P."
+    },
+    {
+     "name": "Subramanian, R."
+    }
+   ],
+   "journal": {
+    "name": "Sensors",
+    "volume": "2021",
+    "number": "21"
    }
   }
  ]

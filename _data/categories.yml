@@ -1,27 +1,21 @@
-- title: Strategy, Delivery &amp; Education
+- title: Strategy &amp; Delivery 
   sort_order: 10
   description: >-
     Develop data science road-maps, scope projects,
-    lead cross-organizational teams in multiple workstreams, present at conferences and meetups, conduct lectures and workshops,
-    author technical and scientific articles.
+    lead cross-organizational teams in multiple workstreams.
   label: strategy
   image: strategy.jpg
 
-- title: Artificial Intelligence
+- title: Artificial Intelligence &amp; Machine Learning
   sort_order: 20
   description: >-
+    Align machine learning approach with business question. 
     Build reasoning systems based on symbolic and statistical models.
-    Implement information extraction from documents. Develop kownledge graphs and ontologies.
-  label: artificial-intelligence
-  image: artificial-intelligence.jpg
-
-- title: Machine Learning
-  sort_order: 30
-  description: >-
-    Align machine learning approach with business question. Implement solutions for data labeling, feature engineering, model training and optimization.
+    Implement solutions for data labeling, feature engineering, model training and optimization.
     Evaluate and monitor model performance, communicate insights.
-  label: machine-learning
-  image: machine-learning.jpg
+    Implement information extraction from documents. Develop kownledge graphs and ontologies.
+  label: ai-ml
+  image: ai-ml.jpg
 
 - title: Modeling &amp; Simulation
   sort_order: 40
@@ -47,4 +41,13 @@
     Unix/Linux system administration. Development for embedded systems and IoT devices.
   label: systems
   image: systems.jpg
+
+- title: Knowledge Sharing
+  sort_order: 70
+  description: >-
+    Present at conferences and meetups, conduct lectures and workshops,
+    author technical and scientific articles.
+  label: education
+  image: education.jpg
+
 
