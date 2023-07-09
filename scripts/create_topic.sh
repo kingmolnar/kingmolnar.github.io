@@ -38,7 +38,7 @@ cat <<EOF > $FILE
 layout: experience
 title:  ${TITLE}
 sort_order: 100
-category: ${CATEGORY}
+category:${CATEGORY}
 tags:
 EOF
 

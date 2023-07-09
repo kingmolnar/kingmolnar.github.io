@@ -1,0 +1,14 @@
+- event: Big Data Week Atalnta
+  year: 2014
+  month: May
+  location: Atlanta, GA, USA
+  title: (multiple panels)
+  url: https://www.datanami.com/this-just-in/top_speakers_announced_for_atlantas_big_data_week/
+  type: panel
+- event: AWS reInvent
+  year: 2021
+  month: November
+  location: Las Vegas, NV, USA
+  title: Smarter pharmacovigilance with AWS Machine Learning
+  url: https://aws.amazon.com/blogs/industries/healthcare-life-sciences-at-reinvent-2021-industry-attendee-guide/
+  type: builder session

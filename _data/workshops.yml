@@ -1,0 +1,16 @@
+- workshop: optimization
+  title: Optimization Workshop
+  audience: MS Data and Analytics students
+  venue: GSU
+
+- workshop: aws_for_ds
+  title: AWS for Data Scientists
+  audience: MS Data and Analytics students
+  venue: GSU
+
+- workshop: best_practices
+  title: Best Programming Practices for Data Scientists and Analysts
+  audience: Professionals
+  venue: GSU
+
+

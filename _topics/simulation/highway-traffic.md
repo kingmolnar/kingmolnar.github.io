@@ -1,6 +1,6 @@
 ---
 layout: experience
-title:  Transportation (Vehicular, Pedestrian, Public Transit) 
+title:  Vehicular Traffic 
 sort_order: 100
 category:  simulation
 tags:
@@ -10,7 +10,9 @@ tags:
     - Transporation
     - Computer Vision
 summary: >-
-    Predict highway traffic congestions and travel times, data collection for model calibration. Understand phenomena of pedestrian crowds through modeling and simulation. Plan capacity of public transit systems leveraging computer simulation.
+    Predict highway traffic congestions and travel times, data collection for model calibration. 
+references:
+    - molnar2000traffic
 ---
 <!--more-->
 Predict highway traffic congestions and travel times, data collection for model calibration. 

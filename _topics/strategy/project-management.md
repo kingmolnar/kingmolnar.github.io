@@ -1,7 +1,7 @@
 ---
 layout: experience
 title:  "Project Management"
-sort_order: 200
+sort_order: 30
 category: strategy
 tags:
     - Leadership

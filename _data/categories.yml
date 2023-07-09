@@ -1,4 +1,4 @@
-- title: Strategy &amp; Delivery 
+- title: "Strategy &amp; Delivery"
   sort_order: 10
   description: >-
     Develop data science road-maps, scope projects,
@@ -6,7 +6,7 @@
   label: strategy
   image: strategy.jpg
 
-- title: Artificial Intelligence &amp; Machine Learning
+- title: "Artificial Intelligence &amp; Machine Learning"
   sort_order: 20
   description: >-
     Align machine learning approach with business question. 
@@ -17,7 +17,7 @@
   label: ai-ml
   image: ai-ml.jpg
 
-- title: Modeling &amp; Simulation
+- title: "Modeling &amp; Simulation"
   sort_order: 40
   description: >-
     Develop computational models for multi-agent systems, robots teams, and sensor and communication network nodes.
@@ -25,7 +25,7 @@
   label: simulation
   image: simulation.jpg
 
-- title: Visualization &amp; User Applications
+- title: "Visualization &amp; User Applications"
   sort_order: 50
   description: >-
     Implement custom visulizations for machine learning and analysis results,
@@ -34,7 +34,7 @@
   label: visualization
   image: visualization.jpg
 
-- title: Computer Systems
+- title: "Computer Systems"
   sort_order: 60
   description: >-
     Configure on-premise compute clusters, build cloud solutions, implement work-flow orchestration and process automation.
@@ -42,12 +42,12 @@
   label: systems
   image: systems.jpg
 
-- title: Knowledge Sharing
+- title: "Knowledge Sharing"
   sort_order: 70
   description: >-
     Present at conferences and meetups, conduct lectures and workshops,
     author technical and scientific articles.
-  label: education
-  image: education.jpg
+  label: sharing
+  image: sharing.jpg
 
 

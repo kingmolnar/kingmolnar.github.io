@@ -1,0 +1,190 @@
+- course: "CCIS 671"
+  title:  "Algorithm Design and Analysis"
+  level: graduate
+  institution: CAU
+  description: >-
+    Study of algorithm design and analysis techniques.
+    Topics include designing algorithms for sorting, order statistics, set manipulation, graphs,
+    fast Fourier transforms and mathematical manipulations. An introduction to NP completeness theory.
+- course: "CCIS 672"
+  title:  "Computer Organization"
+  level: graduate
+  institution: CAU
+  description: >-
+    Advanced study of logical organization of functional components of computers,
+    including processors, control units and memory. Topics also include interconnection networks,
+    memory hierarchies, array and pipeline machines.
+- course: "CCIS 673"
+  title:  "Operating Systems Design"
+  level: graduate
+  institution: CAU
+  description: >-
+    Advanced study of major issues in operating systems including resource management,
+     concurrent programs and duality of operating systems.
+- course: "CCIS 674"
+  title:  "Database Design"
+  level: graduate
+  institution: CAU
+  description: >-
+    Advanced study of database design including data models, relational interfaces,
+    relational database design, query optimization,
+    crash recovery and concurrency control. Concepts are reinforced via design projects.
+- course: "CCIS 675"
+  title:  "Artificial Intelligence"
+  level: graduate
+  institution: CAU
+  description: >-
+    Advanced study of problem solving, theorem proving, knowledge representation,
+    expert systems, learning and natural language processing.
+- course: "CCIS 676"
+  title:  "Theory of Programming Languages Design"
+  level: graduate
+  institution: CAU
+  description: >-
+    Study of features of modern programming languages and issues of modular, concurrent,
+    functional, logic and object programming. Topics also include exception
+    handling and software reuse.
+- course: "CCIS 683"
+  title:  "Algorithms for Parallel Computers"
+  level: graduate
+  institution: CAU
+  description: >-
+    Study of parallel algorithms and architecture. Topics include design and analysis of 
+    parallel algorithms for sorting, searching, graphs, mathematical manipulations and numerical 
+    problems.
+- course: "CCIS 711"
+  title:  "Image Processing"
+  level: graduate
+  institution: CAU
+  description: >-
+    Study of theories of image manipulation and feature extraction. 
+    Topics include pixel transformation, filters, edge- detection, color spaces and corrections, 
+    and compression.
+
+
+- course: "CCIS 105"
+  title: "Programming Principles I"
+  level: undergraduate
+  institution: CAU
+  description: >-
+    An introduction to the fundamental concepts of problem solving focusing on
+    programming oriented solutions and object oriented paradigm. 
+   
+- course: "CCIS 106"
+  title: "Programming Principles II "
+  level: undergraduate
+  institution: CAU
+  description : >-
+    A continuation of CIS 105 teaching advanced concepts in computer
+     programming using a modern programming language.
+
+- course: "CCIS 121"
+  title: "Introduction to Computer Systems "
+  level: undergraduate
+  institution: CAU
+  description : >-
+    Introductory study of logical organization of computer systems. 
+    Topics include input-output processing, memory and processor structures
+    and basic logic circuit design.
+    Assembly language programming will be emphasized.
+
+- course: "CCIS 223"
+  title: "Data Structures"
+  level: undergraduate
+  institution: CAU
+  description : >-
+    Introductory study of data structures, including record,
+    file, linked structures, lists, stacks, queues, graphs and trees.
+
+
+- course: "CCIS 227"
+  title: "Deductive Systems"
+  level: undergraduate
+  institution: CAU
+  description : >-
+    The course offers an introduction to the mathematical foundation of computer science.
+    Topics of this class are particularly relevant to the field of Algorithms and Artificial Intelligence.
+    Students will learn how to apply these topics to popular problems.
+    The course does require basic understanding of programming and algorithms
+    written in pseudo code. Skills in a particular procedural programming language 
+    like C++ of Java are not required. Certain computer programs, like SW-Prolog,
+    will be introduced in class, and made available for hands-on exercises.
+
+- course: "CCIS 371"
+  title: "Computer Algorithms"
+  level: undergraduate
+  institution: CAU
+  description : >-
+    Study of logical organization of computer hardware and functional components
+    using a simulation programming language.
+   
+- course: "CCIS 374"
+  title: "Database Systems "
+  level: undergraduate
+  institution: CAU
+  description : >-
+    Study of basic concepts of databases, including data models,
+    query processing and other topics of interest. 
+     
+- course: "CCIS 375"
+  title: "Artificial Intelligence"
+  level: undergraduate
+  institution: CAU
+  description : >-
+    Introductory study of intelligent problem solving and search algorithms,
+     inference systems, machine intelligence and knowledge organization. 
+      
+- course: "CCIS 413"
+  title: "Introduction to Robotics "
+  level: undergraduate
+  institution: CAU
+  description : >-
+    Topics include feature extraction, pattern recognition, spatial recognition,
+    fast color tracking, and stereoscopic vision.
+
+- course: "CCIS 416"
+  title: "Introduction to High Performance Computing"
+  level: undergraduate
+  institution: CAU
+  description : >-
+    This course provides in introduction to high performance computing 
+    as it relates to scientific computing. The course addresses topics 
+    related to accessing high performance computing resources, developing applications
+    for those resources, and executing developed applications. The lectures and presentations 
+    are designed to provide knowledge and experiences to students that serve as a foundation 
+    for continued learning of high performance computing.
+
+- course: "MSDA 8650"
+  title: "Advanced Deep Learning with Business Applications"
+  level: graduate
+  institution: GSU
+  descriptions: >-
+    This course uses deep neural network methods to solve real business
+    problems with both structured and unstructured data. Both supervised and unsupervised 
+    deep learning methods will be discussed and implemented. Applications of deep learning in 
+    different business areas such as operations, accounting, finance, real estate, 
+    hospitality and marketing will be explored.  
+
+- course: "MSDA 8010"
+  title: "Data Programming"
+  level: graduate
+  institution: GSU
+  descriptions: >-
+    This course introduces fundamental practices for representing, manipulating and analyzing data.
+    The objective is to prepare students with programming tools to tackle large data analysis projects.
+    We will use Python to implement the concepts for data analysis.
+    This class focuses on programming concepts, data structures, and machine learning algorithms
+    to analyze datasets using Python with hands-on activities. Students are expected to spend, 
+    on average, six to nine hours per week outside of lectures studying course concepts, 
+    practicing programming, and working on assignments and programming projects.
+
+- course: "MSDA 8150"
+  title: "Machine Learning for Analytics"
+  level: graduate
+  institution: GSU
+  descriptions: >-
+    The course will cover theory, methods, and tools for automated inference from data.
+    This introductory course will include (1) supervised learning, (2) unsupervised learning methods,
+    (3) graphical structure models, and (4) deep learning. The course will prepare students in
+    the fundamentals of machine learning, as well as provide practical skills in apply
+    current software tools to machine inference from large data sets.
