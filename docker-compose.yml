@@ -1,9 +1,23 @@
-# no version needed since 2020
+# Local development server. Run with:
+#     docker compose up
+#
+# Uses the project's own Gemfile (Ruby 4.0 + Jekyll 4.4.x), matching the
+# GitHub Actions build in .github/workflows/jekyll.yml. The first run
+# installs gems into the `bundle_cache` named volume (~1-2 min); subsequent
+# runs reuse that cache and start in seconds.
 
 services:
   jekyll:
-    image: bretfisher/jekyll-serve
+    image: ruby:4.0
+    working_dir: /site
+    command: bash -lc "bundle check 2>/dev/null || bundle install && bundle exec jekyll serve --host 0.0.0.0 --force_polling"
+    environment:
+      JEKYLL_ENV: development
+    ports:
+      - "4000:4000"
     volumes:
       - .:/site
-    ports:
-      - '4000:4000'
+      - bundle_cache:/usr/local/bundle
+
+volumes:
+  bundle_cache:
