@@ -1,5 +1,3 @@
-*.lock
-Gemfile.lock
 DS_Store*
 
 CLAUDE.md
