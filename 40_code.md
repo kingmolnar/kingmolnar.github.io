@@ -2,6 +2,7 @@
 layout: null
 title: Code
 permalink: /code/
+exclude: true
 ---
 Browse my repositories on GitHub at <https://github.com/kingmolnar/>{:rel="noopener noreferrer"}
 
