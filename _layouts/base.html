@@ -2,7 +2,19 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
-  <link rel="stylesheet" href="/assets/css/cookieconsent.css" media="print" onload="this.media='all'"> 
+  <link rel="stylesheet" href="/assets/css/cookieconsent.css" media="print" onload="this.media='all'">
+  <style>
+    /* Cookieconsent v2 leaves full-viewport wrappers (#s-cnt, #cc--main) in the
+       DOM with visibility:hidden when only the banner is showing. That should
+       drop them from hit-testing, but some browsers still route clicks to them
+       and swallow events on links/menu items underneath. Force the wrappers
+       off pointer-events and re-enable only on the bits that are actually
+       visible/interactive. */
+    #cc--main, #s-cnt, #cm-ov, #cs-ov { pointer-events: none; }
+    #cm, #cs,
+    .show--settings #s-cnt, .show--settings #cs-ov, .show--settings #cs,
+    .force--consent.show--consent #cm-ov { pointer-events: auto; }
+  </style>
   <body>
 
     {%- include header.html -%}

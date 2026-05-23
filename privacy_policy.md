@@ -2,6 +2,7 @@
 layout: base
 exclude: true
 title: GDPR Policy
+permalink: /privacy/
 ---
 # GDPR Policy
 
@@ -58,7 +59,7 @@ We reserve the right to update or modify this GDPR policy at any time. Any chang
 
 ## 8. Contact Us
 
-If you have any questions, concerns, or requests regarding this GDPR policy or the processing of your personal data, please contact us at    [privacy@kingmolnar.com](mailto:privacy@kingmolnar.com)
+If you have any questions, concerns, or requests regarding this GDPR policy or the processing of your personal data, please contact us at    [privacy@molnar.ai](mailto:privacy@molnar.ai)
 
 ---
 

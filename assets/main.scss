@@ -3,6 +3,27 @@
 
 @import "{{ site.theme }}";
 
+/* Site-wide faint rainbow-arc backdrop.
+   Concentric muted bands centered at the bottom-left corner, expanding
+   toward the upper-right. The yellow band closest in is the widest; each
+   band outward (orange, red, brown) is narrower, reverting to sky blue
+   inside the arc and beyond it. Fixed attachment so the backdrop stays
+   put while content scrolls. All colors are low-saturation / high-
+   lightness so the wash sits behind text without competing with it. */
+body {
+  background-color: #e8eff5; /* sky-blue fallback */
+  background-image: radial-gradient(
+    ellipse at 0% 100%,
+    #e8eff5 0%,  #e8eff5 30%,   /* sky inside the arc */
+    #f1ead0 30%, #f1ead0 47%,   /* yellow — widest band */
+    #ecd2b6 47%, #ecd2b6 60%,   /* orange */
+    #e0b6a8 60%, #e0b6a8 70%,   /* red */
+    #c8b099 70%, #c8b099 76%,   /* brown — narrowest band */
+    #e8eff5 76%, #e8eff5 100%   /* sky beyond the arc */
+  );
+  background-attachment: fixed;
+}
+
 h2 {
     color: #828282
 ;

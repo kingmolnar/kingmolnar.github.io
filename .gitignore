@@ -3,3 +3,9 @@ DS_Store*
 CLAUDE.md
 .claude/
 
+# Jekyll build output and caches (regenerated on every build)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
