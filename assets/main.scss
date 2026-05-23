@@ -24,6 +24,23 @@ body {
   background-attachment: fixed;
 }
 
+.page-content {
+  padding: 0;          /* remove top/bottom padding */
+}
+
+.wrapper {
+    max-width: calc(1200px - 30px * 2);
+}
+
+/* Content card over the backdrop. Targets only the wrapper inside
+   <main class="page-content"> — the header's and footer's own .wrapper
+   elements are *not* matched, so the rainbow bleeds under those.
+   Alpha 0.8 = mostly white with the gradient faintly visible through. */
+.page-content .wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-top: 30px;
+}
+
 h2 {
     color: #828282
 ;
