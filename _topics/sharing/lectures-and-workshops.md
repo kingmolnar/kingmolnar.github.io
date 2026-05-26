@@ -17,7 +17,7 @@ summary: >-
 
 | Course Number | Title | Level | Institution |
 |---------------|-------|-------|-------------|
-{% for crs in lectures %}|{{ crs.course }}|{{ crs.title }}|{{ crs.level }}|{{ crs.institution }}|
+{% for crs in lectures %}|{% if crs.url %}<a href="{{ crs.url }}" target="_blank">{{ crs.course }}</a>{% else %}{{ crs.course }}{% endif %}|{% if crs.url %}<a href="{{ crs.url }}" target="_blank">{{ crs.title }}</a>{% else %}{{ crs.title }}{% endif %}|{{ crs.level }}|{{ crs.institution }}|
 {% endfor %}
 {% endif %}
 

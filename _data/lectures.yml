@@ -154,7 +154,7 @@
     are designed to provide knowledge and experiences to students that serve as a foundation 
     for continued learning of high performance computing.
 
-- course: "MSDA 8650"
+- course: "MSA 8650"
   title: "Advanced Deep Learning with Business Applications"
   level: graduate
   institution: GSU
@@ -165,10 +165,11 @@
     different business areas such as operations, accounting, finance, real estate, 
     hospitality and marketing will be explored.  
 
-- course: "MSDA 8010"
-  title: "Data Programming"
+- course: "MSA 8010/IFI 8410"
+  title: "Data Science Programming"
   level: graduate
   institution: GSU
+  url: https://github.com/kingmolnar/DataScienceProgramming
   descriptions: >-
     This course introduces fundamental practices for representing, manipulating and analyzing data.
     The objective is to prepare students with programming tools to tackle large data analysis projects.
@@ -178,7 +179,22 @@
     on average, six to nine hours per week outside of lectures studying course concepts, 
     practicing programming, and working on assignments and programming projects.
 
-- course: "MSDA 8150"
+- course: "MSA 8050"
+  title: "Scalabale Data Analysis"
+  level: graduate
+  institution: GSU
+  url: https://msa8050.molnar.ai
+  description: >-
+    The course integrates algorithmic theory, scalable computing systems, and project-based practice
+    for modern data science on large datasets. It covers core algorithms for machine learning,
+    recommender systems, graph mining, frequent pattern mining, and forecasting, while learning how these
+    methods change when deployed on parallel and distributed systems such as Apache Spark.
+    The course combines theoretical discussions with hands-on technical work in Spark, ETL and ELT
+    pipeline design, workflow orchestration, experiment tracking, and scalable model development.
+    Through one of three retail analytics projects, students build and evaluate end-to-end solutions
+    that improve both technical performance and analytical quality over a baseline implementation.
+
+- course: "MSA 8150"
   title: "Machine Learning for Analytics"
   level: graduate
   institution: GSU
@@ -188,3 +204,17 @@
     (3) graphical structure models, and (4) deep learning. The course will prepare students in
     the fundamentals of machine learning, as well as provide practical skills in apply
     current software tools to machine inference from large data sets.
+
+- course: "MSA 8700"
+  title: "Building Gen AI Business Solutions"
+  level: graduate
+  institution: GSU
+  url: https://msa8700.molnar.ai
+  description: >-
+    This hands-on course focusses on developing generative AI applications.
+    It covers large language models, prompt engineering, and fine-tuning frameworks.
+    Students will explore retrieval-augmented generation, document processing, and vector databases.
+    The course also delves into the architecture and deployment of agentic AI applications,
+    image generation, and safeguarding AI systems. Through class activities, students will apply these
+    concepts to real-world scenarios, ensuring a comprehensive understanding of generative AI's
+    business applications.
