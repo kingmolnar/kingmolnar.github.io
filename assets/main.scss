@@ -24,8 +24,20 @@ body {
   background-attachment: fixed;
 }
 
+.site-header {
+  border-bottom: none;
+}
+
 .page-content {
   padding: 0;          /* remove top/bottom padding */
+}
+
+.site-header {
+    border-bottom: none;
+}
+
+.site-footer {
+    border-top: none;
 }
 
 .wrapper {
